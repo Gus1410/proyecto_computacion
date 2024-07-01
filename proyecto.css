@@ -1,0 +1,72 @@
+body{
+    height: 0;
+    width: 0;
+    background: rgb(0 11 1);
+    background-image: url(informatica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+.center{
+    position: absolute; 
+    top: 60%;        
+    left: 20%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+}
+.up{
+    position: absolute; 
+    top: 60%;        
+    left: 40%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+}
+.down{
+    position: absolute; 
+    top: 90%;        
+    left: 30%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+}
+#b1:hover {
+    background-color: #0f3dd4;
+    box-shadow: 0px 15px 20px rgba(46, 194, 253, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+#b2:hover {
+    background-color: #780db6;
+    box-shadow: 0px 15px 20px rgba(13, 240, 252, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+#b3:hover {
+    background-color: #0b576e;
+    box-shadow: 0px 15px 20px rgba(198, 1, 247, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+button{
+    font-family: monospace;
+    text-align: center;
+    padding: 1em 1em;
+  font-size: 30px;
+  margin: 12px;
+  text-transform: uppercase;
+  Letter-spacing: 15px;
+  font-weight: 80;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 70px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 05;
+  cursor: pointer;
+  outline: none;
+}
+.logo{
+    margin-left: 1150px;
+    width: 200px;
+    height: 200px;
+}   
+
